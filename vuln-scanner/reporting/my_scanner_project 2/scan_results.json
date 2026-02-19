@@ -1,0 +1,26 @@
+{
+    "scan_info": {
+        "target_scope": "192.168.1.0/24",
+        "start_time": "2026-02-16 21:00",
+        "team_name": "SUPERNOVA"
+    },
+    "hosts": [
+        {
+            "ip": "192.168.1.10",
+            "status": "Up",
+            "vulnerabilities": [
+                {
+                    "port": 21,
+                    "service": "FTP",
+                    "cve_id": "CVE-1999-0497",
+                    "severity_score": 9.8,
+                    "check_type": "ftp_anon",
+                    "description": "Anonymous FTP allowed",
+                    "evidence": "Logged in as 'anonymous'",
+                    "severity_label": "Critical",
+                    "remediation": "Disable anonymous login in /etc/vsftpd.conf."
+                }
+            ]
+        }
+    ]
+}
