@@ -1,0 +1,20 @@
+{
+  "vsftpd_2.3.4": {
+    "cve_id": "CVE-2011-2523",
+    "score": 10.0,
+    "description": "Backdoor found in vsftpd 2.3.4, allowing full remote command execution.",
+    "remediation": "Update vsftpd to version 3.0.0 or later."
+  },
+  "apache_2.4.41": {
+    "cve_id": "CVE-2021-41773",
+    "score": 7.5,
+    "description": "Path traversal and file disclosure vulnerability in Apache HTTP Server 2.4.41.",
+    "remediation": "Update Apache to version 2.4.51 or later."
+  },
+  "openssh_4.7p1": {
+    "cve_id": "CVE-2008-0166",
+    "score": 9.3,
+    "description": "Predictable PRNG in Debian-based OpenSSH, allowing easy key recovery.",
+    "remediation": "Regenerate all SSH keys and update OpenSSH."
+  }
+}
